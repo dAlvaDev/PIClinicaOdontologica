@@ -2,11 +2,15 @@ package com.pidenis.appclinica.service;
 
 import com.pidenis.appclinica.entity.Odontologo;
 import com.pidenis.appclinica.repository.OdontologoRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
 
+@Service
 public class OdontologoService {
+    @Autowired
     private OdontologoRepository odontologoRepository;
 
     public Odontologo guardarOdontologo(Odontologo odontologo) {
