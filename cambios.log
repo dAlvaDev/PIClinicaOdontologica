@@ -1,0 +1,71 @@
+[2024-06-21 00:24:09] [ WARN ] [BD:37] org.h2.Driver
+[2024-06-21 00:24:44] [ INFO ] [OdontologoDAOH2:44] iniciando busqueda por id: 1
+[2024-06-21 00:24:44] [ ERROR] [OdontologoDAOH2:57] org.h2.Driver
+[2024-06-21 00:29:13] [ WARN ] [BD:37] org.h2.Driver
+[2024-06-21 00:30:39] [ WARN ] [BD:37] Tabla "DOMICILIOS" no encontrada
+Table "DOMICILIOS" not found; SQL statement:
+INSERT INTO DOMICILIOS (CALLE, NUMERO, LOCALIDAD, PROVINCIA) VALUES ('Siempre viva',742,'Springfield','USA'), ('Siempre viva',742,'Springfield','USA') [42102-224]
+[2024-06-21 00:31:36] [ INFO ] [BD:34] tabla creada con exito
+[2024-06-21 00:31:48] [ INFO ] [OdontologoDAOH2:44] iniciando busqueda por id: 1
+[2024-06-22 22:42:18] [ INFO ] [BD:32] tabla creada con exito
+[2024-06-22 22:43:30] [ INFO ] [PacienteDAOH2:57] iniciando la busqueda de un paciente por id: 1
+[2024-06-22 22:49:10] [ INFO ] [BD:32] tabla creada con exito
+[2024-06-22 22:49:47] [ INFO ] [PacienteDAOH2:57] iniciando la busqueda de un paciente por id: 1
+[2024-06-22 22:49:47] [ INFO ] [PacienteDAOH2:104] iniciando eliminación de un paciente por id: 1
+[2024-06-22 22:49:47] [ INFO ] [PacienteDAOH2:57] iniciando la busqueda de un paciente por id: 1
+[2024-06-22 22:49:47] [ INFO ] [DomicilioDaoH2:90] iniciando eliminación de un domicilio por id: 1
+[2024-06-22 22:49:47] [ INFO ] [DomicilioDaoH2:97] Domicilio eliminado con éxito
+[2024-06-22 22:49:47] [ WARN ] [PacienteDAOH2:116] Valor Invalido "7" para el parametro "parameterIndex"
+Invalid value "7" for parameter "parameterIndex" [90008-224]
+[2024-06-22 22:53:36] [ INFO ] [BD:32] tabla creada con exito
+[2024-06-22 22:53:55] [ INFO ] [PacienteDAOH2:122] iniciando la busqueda de todos los pacientes
+[2024-06-22 22:53:55] [ INFO ] [PacienteDAOH2:136] Buscado con éxito
+[2024-06-22 22:53:55] [ INFO ] [PacienteDAOH2:136] Buscado con éxito
+[2024-06-22 21:44:06] [ INFO ] [BD:32] tabla creada con exito
+[2024-06-22 21:47:37] [ INFO ] [OdontologoDAOH2:23] inicando la operacion de guardado
+[2024-06-22 21:47:37] [ INFO ] [OdontologoDAOH2:41] Odontologo guardado con exito
+[2024-06-22 21:47:57] [ INFO ] [OdontologoDAOH2:23] inicando la operacion de guardado
+[2024-06-22 21:47:57] [ INFO ] [OdontologoDAOH2:41] Odontologo guardado con exito
+[2024-06-22 21:54:11] [ INFO ] [BD:32] tabla creada con exito
+[2024-06-22 21:54:30] [ INFO ] [OdontologoDAOH2:23] inicando la operacion de guardado
+[2024-06-22 21:54:30] [ INFO ] [OdontologoDAOH2:41] Odontologo guardado con exito
+[2024-06-22 21:59:24] [ INFO ] [BD:35] tabla creada con exito
+[2024-06-22 21:59:55] [ INFO ] [OdontologoDAOH2:50] iniciando busqueda por id: 1
+[2024-06-23 00:12:45] [ INFO ] [OdontologoDAOH2:50] iniciando busqueda por id: 1
+[2024-06-23 00:15:12] [ INFO ] [BD:35] tabla creada con exito
+[2024-06-23 00:15:37] [ INFO ] [OdontologoDAOH2:23] inicando la operacion de guardado
+[2024-06-23 00:15:37] [ INFO ] [OdontologoDAOH2:41] Odontologo guardado con exito
+[2024-06-23 00:16:46] [ INFO ] [BD:35] tabla creada con exito
+[2024-06-23 00:16:49] [ INFO ] [OdontologoDAOH2:23] inicando la operacion de guardado
+[2024-06-23 00:16:49] [ INFO ] [OdontologoDAOH2:41] Odontologo guardado con exito
+[2024-06-23 00:17:43] [ INFO ] [OdontologoDAOH2:23] inicando la operacion de guardado
+[2024-06-23 00:17:43] [ INFO ] [OdontologoDAOH2:41] Odontologo guardado con exito
+[2024-06-23 00:19:00] [ INFO ] [OdontologoDAOH2:50] iniciando busqueda por id: 1
+[2024-06-23 00:19:38] [ INFO ] [OdontologoDAOH2:50] iniciando busqueda por id: null
+[2024-06-23 00:19:38] [ ERROR] [OdontologoDAOH2:63] Cannot invoke "java.lang.Integer.intValue()" because "id" is null
+[2024-06-23 00:20:00] [ INFO ] [OdontologoDAOH2:50] iniciando busqueda por id: 3
+[2024-06-23 00:20:00] [ INFO ] [OdontologoDAOH2:70] iniciando actulización de un paciente por id: 3
+[2024-06-23 00:20:00] [ WARN ] [OdontologoDAOH2:82] Error de Sintaxis en sentencia SQL "UPDATE ODONTOLOGOS SET(MATRICULA [*]= ?, NOMBRE = ?, APELLIDO = ?) WHERE ID = ?"; se esperaba "., [, ,, )"
+Syntax error in SQL statement "UPDATE ODONTOLOGOS SET(MATRICULA [*]= ?, NOMBRE = ?, APELLIDO = ?) WHERE ID = ?"; expected "., [, ,, )"; SQL statement:
+UPDATE ODONTOLOGOS SET(MATRICULA = ?, NOMBRE = ?, APELLIDO = ?) WHERE ID = ? [42001-224]
+[2024-06-23 00:20:31] [ INFO ] [OdontologoDAOH2:50] iniciando busqueda por id: 3
+[2024-06-23 00:21:08] [ INFO ] [OdontologoDAOH2:50] iniciando busqueda por id: 1
+[2024-06-23 00:21:08] [ INFO ] [OdontologoDAOH2:88] iniciando eliminación de un paciente por id: 1
+[2024-06-23 00:21:08] [ INFO ] [OdontologoDAOH2:95] Odontologo eliminado con éxito
+[2024-06-23 00:21:31] [ INFO ] [OdontologoDAOH2:103] Iniciando busqueda de odontologos
+[2024-06-23 00:22:53] [ INFO ] [BD:35] tabla creada con exito
+[2024-06-23 00:22:58] [ INFO ] [OdontologoDAOH2:50] iniciando busqueda por id: 3
+[2024-06-23 00:21:06] [ INFO ] [OdontologoDAOH2:103] Iniciando busqueda de odontologos
+[2024-06-23 00:21:21] [ INFO ] [OdontologoDAOH2:23] inicando la operacion de guardado
+[2024-06-23 00:21:21] [ INFO ] [OdontologoDAOH2:41] Odontologo guardado con exito
+[2024-06-23 00:21:26] [ INFO ] [OdontologoDAOH2:50] iniciando busqueda por id: 3
+[2024-06-23 00:21:30] [ INFO ] [OdontologoDAOH2:50] iniciando busqueda por id: 2
+[2024-06-23 00:21:30] [ INFO ] [OdontologoDAOH2:70] iniciando actulización de un paciente por id: 2
+[2024-06-23 00:21:30] [ INFO ] [OdontologoDAOH2:80] Actualización exitosa
+[2024-06-23 00:21:35] [ INFO ] [OdontologoDAOH2:103] Iniciando busqueda de odontologos
+[2024-06-23 00:22:37] [ INFO ] [OdontologoDAOH2:50] iniciando busqueda por id: 2
+[2024-06-23 00:23:22] [ INFO ] [OdontologoDAOH2:103] Iniciando busqueda de odontologos
+[2024-06-23 00:32:29] [ INFO ] [BD:35] tabla creada con exito
+[2024-06-23 00:33:53] [ INFO ] [BD:35] tabla creada con exito
+[2024-06-23 00:33:57] [ INFO ] [OdontologoDAOH2:23] inicando la operacion de guardado
+[2024-06-23 00:33:57] [ INFO ] [OdontologoDAOH2:41] Odontologo guardado con exito

@@ -1,0 +1,46 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+    margin-bottom: 60px; /* To avoid content being hidden behind the fixed footer */
+}
+
+.navbar {
+    background-color: #007bff;
+}
+
+.navbar-brand, .nav-link {
+    color: white !important;
+}
+
+.dropdown-menu {
+    background-color: #f1f1f1;
+}
+
+h1 {
+    color: #333;
+}
+
+#update_paciente_form {
+    background-color: #e6fffa;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+footer {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    border: none;
+}

@@ -1,0 +1,45 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    background-color: #007bff;
+}
+
+.navbar-brand, .nav-link, .btn-secondary {
+    color: white !important;
+}
+
+.dropdown-menu {
+    background-color: #f1f1f1;
+}
+
+h1 {
+    margin-top: 20px;
+    text-align: center;
+    color: #333;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    border: none;
+}
+
+footer {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

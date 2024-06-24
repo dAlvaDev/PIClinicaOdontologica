@@ -28,12 +28,12 @@ public class Usuario implements UserDetails {
     public Usuario() {
     }
 
-    public Usuario(String nombre, String userName, String email, String password, UsuarioRole usuarioRole) {
+    public Usuario(String nombre, UsuarioRole usuarioRole, String password, String email, String userName) {
         this.nombre = nombre;
-        this.userName = userName;
-        this.email = email;
-        this.password = password;
         this.usuarioRole = usuarioRole;
+        this.password = password;
+        this.email = email;
+        this.userName = userName;
     }
 
     public Long getId() {
@@ -98,21 +98,21 @@ public class Usuario implements UserDetails {
 
     @Override
     public boolean isAccountNonExpired() {
-        return UserDetails.super.isAccountNonExpired();
+        return true;
     }
 
     @Override
     public boolean isAccountNonLocked() {
-        return UserDetails.super.isAccountNonLocked();
+        return true;
     }
 
     @Override
     public boolean isCredentialsNonExpired() {
-        return UserDetails.super.isCredentialsNonExpired();
+        return true;
     }
 
     @Override
     public boolean isEnabled() {
-        return UserDetails.super.isEnabled();
+        return true;
     }
 }
